@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>DevDataProject</title>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h1>DevDataProject</h1>
+
+<p>Course Project on Developing Data Product</p>
+
+<h2>Quick Introduction to user interface</h2>
+
+<p>This course project has produced a Shiny application (code published here), deployed in <a href="http://jcllorente.shinyapps.io/DevDataProject/">Rstudio&#39;s shiny server</a> and also some <a href="https://github.com/jcllorente/DevDataProj_deck">supporting documentation</a>.</p>
+
+<p>It uses the famous Fisher&#39;s or Anderson&#39;s iris data set. Aim pursued other than learning is to <strong>test the correlation and linear regression fit among 2 pairs of predictors, length and width of either sepal and petal</strong>.</p>
+
+<p>All input variables are initialized for main output to display since start of runof application, assuming nothing goes unexpectedly wrong.</p>
+
+<p>Feel free to interact with:</p>
+
+<ol>
+<li><p>Radio button to select variable pair to process: Sepal or Petal. </p></li>
+<li><p>Slider to select size of random sample of data to use: from 15 to 150 records. </p></li>
+<li><p>Checkboxes to request optional summary data, any of the following: </p>
+
+<ul>
+<li>correlation factor among variables selected, and </li>
+<li>intercept, beta coefficient, residual standard error (sigma) and multiple R-squared of the corresponding linear regression fit. </li>
+</ul></li>
+<li><p>Numeric input box and action button for final surprise. </p></li>
+</ol>
+
+<h3>Thanks for your attention and kind consideration!</h3>
+
+</body>
+
+</html>

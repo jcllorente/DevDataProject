@@ -6,7 +6,7 @@ shinyUI(pageWithSidebar(
     sidebarPanel(
         # Radio buttons to select plot variables
         radioButtons("magn",h4("What to plot?"),
-            c("Petal Lenght versus Petal Width"=3,
+            c("Petal Length versus Petal Width"=3,
               "Sepal Length versus Sepal Width"=1)),
         # Slider to select number of records
         sliderInput("samp",h4("Number of items to plot:"), value=75,
