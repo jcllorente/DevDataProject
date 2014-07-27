@@ -1,7 +1,7 @@
-DevDataProject
-==============
+Exercise with Iris dataset
+==========================
 
-Course Project on Developing Data Product
+#### Developing Data Products Course Project
 
 ## Quick Introduction to user interface
 
